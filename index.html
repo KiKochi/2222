@@ -9,7 +9,12 @@
       <link rel="stylesheet" type="text/css" href="./index.css" />
       <script src="./index.js"></script>
       
-       
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.9.6/tailwind.min.css" integrity="sha512-l7qZAq1JcXdHei6h2z8h8sMe3NbMrmowhOl+QkP3UhifPpCW2MC4M0i26Y8wYpbz1xD9t61MLT9L1N773dzlOA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Saira:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" id="iconsmind-css" href="https://insigniathemes.com/clariwell/home-5/wp-content/themes/clariwell/assets/css/iconsmind.min.css" type="text/css" media="all">
     </head>
 
     <body data-instant-intensity="all" class="primo-page">   
@@ -335,7 +340,20 @@
 </div>
 
       
-      
+      <script>
+function toggleMenu() {
+  y = document.querySelector("#header__hamburger");
+  y.classList.toggle("click");
+  var x = document.getElementById("naav");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+    x.classList.toggle("click");
+  } else {
+    x.style.display = "block";
+    x.classList.toggle("click");
+  }
+}
+    </script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.js" integrity="sha256-DdSiNPR71ROAVMqT6NiHagLAtZv9EHeByYuVxygZM5g=" crossorigin="anonymous"></script>
     </body>
     </html>
